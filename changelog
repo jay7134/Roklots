@@ -7,3 +7,7 @@ classified-listing-pro\classified-listing-pro\app\Controllers\Hooks\TemplateHook
 
 Gallery image notices:
 classified-listing-pro\classified-listing-pro\app\Resources\Gallery.php
+
+Single listing Gallery image slider:
+Line No. 21 $image_attributes = wp_get_attachment_image_src($image->ID, 'rtcl-gallery'); // instead of getting rtcl-gallery image changed to 'full'
+\classified-listing-pro\classified-listing-pro\templates\listing\gallery.php
