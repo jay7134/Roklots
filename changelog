@@ -1,0 +1,9 @@
+Posting ads Form customizations
+
+
+Gallery image postion move to top:
+line No. 26 add_action("rtcl_listing_form", [__CLASS__, 'listing_gallery'], 6);
+classified-listing-pro\classified-listing-pro\app\Controllers\Hooks\TemplateHooks.php
+
+Gallery image notices:
+classified-listing-pro\classified-listing-pro\app\Resources\Gallery.php
